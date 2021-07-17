@@ -1,1 +1,64 @@
-tres
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: skyblue;
+}
+
+#headerutama {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(128, 127, 127);
+    height: 10vh;
+    align-items: center;
+}
+
+#judul {
+    color: maroon;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 25vw;
+    height: 100%;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.link {
+    color: maroon;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2vw;
+}
+
+.link:hover {
+    color: skyblue;
+}
+
+#perkenalan {
+    display: flex;
+    margin: 2vw 3vw;
+    box-sizing: border-box;
+    background-color: snow;
+    border-radius: 5px
+    
+}
+
+#fotoperkenalan {
+    padding: 30px 30px;
+    /* height: 100%; */
+}
+
+#fotodimas {
+    width: 75%; 
+    style="float: left;"
+}
+.textperkenalan {
+    padding: 30px 30px;;
+    text-align: justify ;
+}
