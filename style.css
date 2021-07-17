@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: skyblue;
+    background-color: black;
 }
 
 #headerutama {
@@ -16,7 +16,7 @@ html, body {
 
 #judul {
     color: maroon;
-    text-align: center;
+    margin-left: 50px;
 }
 
 #navbar {
@@ -44,7 +44,7 @@ html, body {
     display: flex;
     margin: 2vw 3vw;
     box-sizing: border-box;
-    background-color: snow;
+    background-color: maroon;
     border-radius: 5px
     
 }
@@ -61,4 +61,33 @@ html, body {
 .textperkenalan {
     padding: 30px 30px;;
     text-align: justify ;
+    color: white;
+}
+
+#background {
+    display: flex;
+    margin: 2vw 3vw;
+    box-sizing: border-box;
+    background-color: snow;
+    border-radius: 5px
+}
+
+.textbackground {
+    padding: 30px 30px;;
+    text-align: justify ;
+    color: black;
+}
+
+#ceritaunik {
+    display: flex;
+    margin: 2vw 3vw;
+    box-sizing: border-box;
+    background-color: maroon;
+    border-radius: 5px
+}
+
+.textcerita {
+    padding: 30px 30px;;
+    text-align: justify ;
+    color: snow;
 }
