@@ -49,24 +49,25 @@ html, body {
     
 }
 
-#fotoperkenalan {
-    padding: 30px 30px;
-    /* height: 100%; */
+.perkenalanSpan {
+    color: rgb(153, 153, 153);
+    font-size: 30px;
 }
 
 #fotodimas {
-    width: 75%; 
+    padding: 30px 30px;
+    width: 25%; 
    float: left"
 }
 
 .textperkenalan {
-    padding: 30px 30px;;
+    padding: 10px 30px;
     text-align: justify ;
     color: white;
 }
 
 #background {
-    display: flex;
+    display: block;
     margin: 2vw 3vw;
     box-sizing: border-box;
     background-color: snow;
@@ -74,21 +75,37 @@ html, body {
 }
 
 .textbackground {
-    padding: 30px 30px;;
+    padding: 0px 30px;;
     text-align: justify ;
     color: black;
 }
 
+#judul2 {
+    padding-top: 20px;
+}
+
+#isi2 {
+    padding-bottom: 20px;
+}
+
 #ceritaunik {
-    display: flex;
+    display: block;
     margin: 2vw 3vw;
     box-sizing: border-box;
     background-color: maroon;
     border-radius: 5px
 }
 
+#judul3 {
+    padding-top: 20px;
+}
+
+#isi3 {
+    padding-bottom: 20px;
+}
+
 .textcerita {
-    padding: 30px 30px;;
+    padding: 0px 30px;
     text-align: justify ;
     color: snow;
 }
