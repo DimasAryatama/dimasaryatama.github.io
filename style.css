@@ -12,6 +12,10 @@ html, body {
     background-color: rgb(128, 127, 127);
     height: 10vh;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
 }
 
 #judul {
@@ -38,6 +42,10 @@ html, body {
 
 .link:hover {
     color: skyblue;
+}
+
+#isiweb {
+    padding-top: 5vw;
 }
 
 #perkenalan {
