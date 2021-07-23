@@ -19,7 +19,7 @@ html, body {
 }
 
 #judul {
-    color: maroon;
+    color: rgb(201, 0, 0);
     margin-left: 50px;
 }
 
@@ -34,7 +34,7 @@ html, body {
 }
 
 .link {
-    color: maroon;
+    color: rgb(201, 0, 0);
     text-decoration: none;
     padding: 10px;
     font-size: 1.2vw;
@@ -72,6 +72,18 @@ html, body {
     padding: 10px 30px;
     text-align: justify ;
     color: white;
+}
+
+.judulTable {
+    font-size: 30px;
+}
+
+.linkSosmed {
+    color: aqua;
+}
+
+.linkSosmed:hover {
+    color: grey;
 }
 
 #background {
